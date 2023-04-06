@@ -1,0 +1,139 @@
+/* CSS Stylesheet for poll app */
+
+html, body {
+    height:100%;
+    padding: 0;
+    margin: 0;
+    color: white;
+}
+
+html{
+    background-image:url("images/background.jpg");
+    background-position: center; 
+    background-size: cover;
+
+    background-repeat: no-repeat;
+    position: relative;
+   
+}
+.overlay {
+    position: relative;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0,0,0, 0.6); 
+}
+
+.row {
+    height: 100vh;
+    position: relative;
+}
+
+nav{
+padding-left:80px;
+padding-right: 80px;
+}
+
+body {
+    height: 100vh;
+    width: 100%;
+    margin: auto;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    font-size: 14px;
+    font-family: "Montserrat", sans-serif;
+    color: #c4cfde;
+    letter-spacing: 0.5px;
+    font-weight: 500;
+    display: block;
+    line-height: 24px;
+    background-color: transparent;
+    
+}
+
+
+#grid {
+    display: grid;
+    grid-template-columns: 100%;
+    column-gap: 10px;
+    margin:auto;
+ 
+}
+
+
+
+
+h1 {
+    font-family: "Montserrat", sans-serif;
+    color: #ffffff;
+    font-weight: 500;
+    font-size: 60px;
+    line-height: 62px;
+    margin-bottom: 22px;
+}
+
+h2 {
+
+    font-family: "Montserrat", sans-serif;
+    color: #d4c236;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 62px;
+    margin-bottom: 22px;
+
+}
+
+ul, li {
+    list-style-type: none;
+}
+
+
+
+.footer-grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    column-gap: 64px; 
+}
+
+.footer-heading{
+    margin-top: 20px;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.footer-grid-block{
+text-align: center;
+}
+
+
+a:link {
+    color: #000000;
+  }
+  
+a:visited {
+    color: #000000;
+  }
+
+a:hover {
+    color: #ffc107;
+  }
+  
+a:active {
+    color: #000000;
+  }
+
+  a.light-body-link:link {
+    color: #ffffff;
+  } 
+
+  a.light-body-link:visited {
+    color: #ffffff;
+  } 
+
+  a.light-body-link:hover {
+    color: #0dff00;
+  }
+  a.light-body-link:active {
+    color: #ffffff;
+  }

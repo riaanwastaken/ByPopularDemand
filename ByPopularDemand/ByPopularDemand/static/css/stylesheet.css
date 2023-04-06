@@ -1,0 +1,39 @@
+/* CSS Stylesheet for Compulsary Task.html webpage */
+
+
+.card .card-img-top:hover {
+    opacity: 50%;
+}
+
+.card {
+margin: auto;
+margin-bottom: 60px;
+
+}
+
+
+h1 {
+
+margin:60px 0px 60px 0px;
+
+}
+
+#formPadding {
+
+ margin-bottom: 20px;
+
+}
+
+#rowHeight {
+
+    height:  60px;
+    margin: auto 0px;
+   }
+
+ h2{
+    margin-bottom: 60px;
+ } 
+
+ footer{
+    margin:100px 0px 100px 0px;
+ }
